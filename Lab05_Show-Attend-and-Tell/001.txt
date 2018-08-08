@@ -1,0 +1,40 @@
+ok, let get started.
+As you know, Artificial Intelligent has become very popular in recent years.
+In this presentation, I want to tell you about how computers view images and
+show you the machanism of computer vision.
+
+One of the primary goals of computer vision is to automatically generate 
+captions of an image, since this is a task very close to the heart of 
+scene understanding.
+
+To achieve this goal, the caption generating model must not only be able to 
+detect which objects are in an image, but be capable of expressing their
+relationships in a natural language.
+
+For this reason, caption generating model has long been viewed as a difficult
+problem.
+
+The main idea I want to show you is :
+under the architecture called Deep Neural Network, computers could build its
+own attentions and produce captions after giving many examples.
+
+The example are several thousands of images and each image have 5 or more 
+corresponding captions.
+
+The Deep Neural Network architecture has about thousands of parameters need
+to be determined. Examples are used to let the model find proper parameters.
+
+All images and word will be expressed as numerical numbers in the model so that 
+the model could generate the caption of highest probability and
+adjust parameters if the generated caption is what we didn't expect. 
+
+In fact, each attention of an image in the model generate a word and a 
+caption is generated after viewing a number of attentions.
+
+The tatol training time would take about 3 days with the add of graphic card acceleration.
+
+At the end, we can see where computers focus on when they are generating captions and 
+viewing an image. This may help human to detect or recognize some object 
+without being there themself, and bring many conveninces to our lives.
+ 
+Thank you very much.
